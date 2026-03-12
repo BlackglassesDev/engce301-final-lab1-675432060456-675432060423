@@ -68,3 +68,4 @@ TLS Termination: Nginx จะทำหน้าที่ถอดรหัส (D
 Internal Communication: หลังจาก Nginx ตรวจสอบความถูกต้องแล้ว จะส่งข้อมูลต่อไปยัง Service ภายใน (Auth, Task, Log) ผ่าน Docker Network ซึ่งช่วยลดภาระของ Microservices ไม่ต้องจัดการ SSL เองทุกตัว
 
 Security Headers: มีการเพิ่ม Header เช่น HSTS, X-Frame-Options และ X-XSS-Protection เพื่อป้องกันการโจมตีจากภายนอก
+
