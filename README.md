@@ -18,12 +18,12 @@ Browser / Postman
         │                │                  │
         ▼                ▼                  ▼
 ┌──────────────┐ ┌───────────────┐ ┌──────────────────┐
-│ 🔑 Auth Svc │ │ 📋 Task Svc │ │ 📝 Log Service │
-│ :3001 │ │ :3002 │ │ :3003 │
-│ │ │ │ │ │
-│ • Login │ │ • CRUD Tasks │ │ • POST /api/logs │
-│ • /verify │ │ • JWT Guard │ │ • GET /api/logs │
-│ • /me │ │ • Log events │ │ • เก็บลง DB │
+│ 🔑 Auth Svc │ │ 📋 Task Svc   │ │ 📝 Log Service   │
+│     :3001    │ │     :3002     │ │      :3003       │
+│              │ │               │ │                  │
+│ • Login      │ │ • CRUD Tasks  │ │ • POST /api/logs │
+│ • /verify    │ │ • JWT Guard   │ │ • GET /api/logs  │
+│ • /me        │ │ • Log events  │ │ • เก็บลง DB       │
 └──────┬───────┘ └───────┬───────┘ └──────────────────┘
        │                 │
        └────────┬────────┘
