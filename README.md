@@ -58,7 +58,7 @@ bob,           bob@lab.local,bob456,                member
 admin,         admin@lab.local,adminpass,           admin
 
 
-###อธิบายสั้น ๆ ว่า HTTPS ทำงานอย่างไรในระบบนี้
+### อธิบายสั้น ๆ ว่า HTTPS ทำงานอย่างไรในระบบนี้
 ระบบนี้ใช้ Nginx เป็นตัวจัดการความปลอดภัยที่ด่านหน้า (API Gateway):
 
 HTTPS Redirect: เมื่อมีการเข้าผ่านพอร์ต 80 (HTTP) Nginx จะสั่ง Redirect ไปที่พอร์ต 443 (HTTPS) ทันที
