@@ -28,13 +28,13 @@ Browser / Postman
        │                 │
        └────────┬────────┘
                 ▼
-┌─────────────────────┐
-│ 🗄️ PostgreSQL      │      
-│ (1 shared DB)       │
-│ • users table       │
-│ • tasks table       │
-│ • logs table        │
-└─────────────────────┘
+    ┌─────────────────────┐
+    │ 🗄️ PostgreSQL      │      
+    │ (1 shared DB)       │
+    │ • users table       │
+    │ • tasks table       │
+    │ • logs table        │
+    └─────────────────────┘
 
 
 ### วิธีรัน: ./scripts/gen-certs.sh → cp .env.example .env → docker compose up --build
