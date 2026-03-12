@@ -3,6 +3,7 @@
 
 ### Architecture Diagram
 
+```text
 Browser / Postman
 │
 │ HTTPS :443 (HTTP :80 redirect → HTTPS)
@@ -35,7 +36,7 @@ Browser / Postman
     │ • tasks table       │
     │ • logs table        │
     └─────────────────────┘
-
+```
 
 ### วิธีรัน: ./scripts/gen-certs.sh → cp .env.example .env → docker compose up --build
 
